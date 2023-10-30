@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-area pt-80 pb-45">
+    <div class="footer-area pt-80 pb-45 footer-2-bg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6">
@@ -47,17 +47,17 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6">
-                    <div class="footer-wrapper ml-130 mb-30">
+                    <!-- <div class="footer-wrapper ml-130 mb-30">
                         <h3 class="footer-title">Payment</h3>
                         <div class="footer-img">
                             <img src="assets/img/footer/footer.png" alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-bottom-area mr-70 ml-70 pt-25 pb-25">
+    <!-- <div class="footer-bottom-area mr-70 ml-70 pt-25 pb-25">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6">
@@ -77,5 +77,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </footer>

@@ -7,23 +7,68 @@
     <section class="hero-area">
         <div class="hero-slider">
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/slider/01.jpg">
+                <div class="single-slider slider-2-height d-flex align-items-center" data-background="assets/img/slider/02.jpg">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-5 col-lg-6">
-                                <div class="hero-text mt-90">
-                                    <div class="hero-slider-caption ">
-                                        <span data-animation="fadeInUp" data-delay=".2s">covid -19 products</span>
-                                        <h2 data-animation="fadeInUp" data-delay=".4s">Face Mask
-                                            Thermometer</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Quis autem vel eum iure reprehenin voluptate
-                                            velit esse quam nihil molestiae conse</p>
+                            <div class="col-xl-6 col-lg-7 col-md-9">
+                                <div class="hero-content">
+                                    <div class="slider-caption ">
+                                        <span data-animation="fadeInUp" data-delay=".2s">New Formula</span>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s">Lab Hand
+                                            Sanitizer</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Sed ut perspiciatis unde omnis iste natus error oluptatem accusantium doloremque laudantium totam rem</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-7 col-lg-6">
-                                <div class="slider-img d-none d-lg-block" data-animation="fadeInRight" data-delay=".8s">
-                                    <img src="assets/img/slider/01.png" alt="">
+                            <div class="col-xl-6 col-lg-5">
+                                <div class="slider-02-img" data-animation="fadeInRight" data-delay=".8s">
+                                    <img src="assets/img/slider/02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-slider slider-2-height d-flex align-items-center" data-background="assets/img/slider/02.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="hero-content">
+                                    <div class="slider-caption ">
+                                        <span data-animation="fadeInUp" data-delay=".2s">New Formula</span>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s">Lab Hand
+                                            Sanitizer</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Sed ut perspiciatis unde omnis iste natus error oluptatem accusantium doloremque laudantium totam rem</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="slider-02-img" data-animation="fadeInRight" data-delay=".8s">
+                                    <img src="assets/img/slider/02.png" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-slider slider-2-height d-flex align-items-center" data-background="assets/img/slider/02.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="hero-content">
+                                    <div class="slider-caption ">
+                                        <span data-animation="fadeInUp" data-delay=".2s">New Formula</span>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s">Lab Hand
+                                            Sanitizer</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">Sed ut perspiciatis unde omnis iste natus error oluptatem accusantium doloremque laudantium totam rem</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="slider-02-img" data-animation="fadeInRight" data-delay=".8s">
+                                    <img src="assets/img/slider/02.png" alt="">
+
                                 </div>
                             </div>
                         </div>
@@ -39,7 +84,7 @@
 
 
     <!-- product-area-start -->
-    <div class="product-area pb-70">
+    <div class="product-area pb-70 grey-2-bg pt-100 pb-65">
         <div class="container">
             <div class="row mb-30">
                 <div class="col-xl-7 col-lg-7 col-md-7">
@@ -95,7 +140,7 @@
     </div>
 
     <!-- testimonial-area-start -->
-    <div class="testimonial-area pt-100 pb-175" data-background="assets/img/bg/test.jpg">
+    <div class="testimonial-area pb-175 grey-2-bg pt-100 pb-65" data-background="assets/img/bg/test.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">

@@ -94,9 +94,9 @@ Route::get('category', [FrontpageController::class, 'category'])->name('category
 
 Route::get('category/{slug}', [FrontpageController::class, 'categoryProduct'])->name('categoryProduct');
 
-Route::get('product', function () {
-    return view('product');
-})->name('product');
+// Route::get('product', function () {
+//     return view('product');
+// })->name('product');
 
 Route::get('quality', function () {
     return view('quality');

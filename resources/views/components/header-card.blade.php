@@ -1,6 +1,6 @@
 <header>
 
-    <div id="sticky-header" class="main-menu-area menu-01 pl-165 pr-165">
+    <div id="sticky-header" class="main-menu-area menu-01 pl-165 pr-165 grey-2-bg">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xl-3 col-lg-3">
@@ -17,7 +17,7 @@
                                 <li><a href="{{route('about')}}">About</a>
 
                                 </li>
-                                <li><a href="{{route('product')}}">Products</a></li>
+                                <li><a href="{{route('category')}}">Products</a></li>
                                 <li><a href="{{route('event')}}">Events</a>
                                 </li>
                                 <li><a href="{{route('contact')}}">contact</a></li>

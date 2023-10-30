@@ -69,8 +69,8 @@
 			dots: false,
 			fade: true,
 			arrows: true,
-			prevArrow: '<button type="button" class="slick-prev"><i class="far fa-long-arrow-left"></i></button>',
-		    nextArrow: '<button type="button" class="slick-next"><i class="far fa-long-arrow-right"></i></button>',
+			prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
+		    nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>',
 			responsive: [
 				{
 					breakpoint: 1200,
@@ -125,8 +125,8 @@ $('.test-active').slick({
 	infinite: true,
 	autoplay:true,
 	speed: 300,
-	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>',
 	slidesToShow: 2,
 	slidesToScroll: 1,
 	responsive: [
@@ -170,7 +170,7 @@ $('.test-active').slick({
 // test-02-active
 $('.test-02-active').slick({
 	dots: true,
-	arrows: true,
+	arrows: false,
 	infinite: true,
 	autoplay:true,
 	speed: 300,
@@ -375,8 +375,8 @@ $('.test-03-active').slick({
 	arrows: false,
 	infinite: true,
 	speed: 300,
-	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
+	nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>',
 	slidesToShow: 3,
 	slidesToScroll: 1,
 	responsive: [

@@ -68,6 +68,32 @@
                     </span>
                 </a>
             </li>
+
+            <li>
+                <a href="{{route('admin.Settings','event-settings')}}" class="navItem {{url()->current()==route('admin.Settings','event-settings')?'active':''}}">
+                    <span class="flex items-center">
+                        <iconify-icon class=" nav-icon" icon="material-symbols:settings-outline"></iconify-icon>
+                        <span>Events</span>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="{{route('admin.Settings','quality-settings')}}" class="navItem {{url()->current()==route('admin.Settings','quality-settings')?'active':''}}">
+                    <span class="flex items-center">
+                        <iconify-icon class=" nav-icon" icon="material-symbols:settings-outline"></iconify-icon>
+                        <span>Quality</span>
+                    </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="{{route('admin.Settings','testimonial-settings')}}" class="navItem {{url()->current()==route('admin.Settings','testimonial-settings')?'active':''}}">
+                    <span class="flex items-center">
+                        <iconify-icon class=" nav-icon" icon="material-symbols:settings-outline"></iconify-icon>
+                        <span>Testimonial</span>
+                    </span>
+                </a>
+            </li>
             <!-- Case Studies Settings -->
             <li>
                 <a href="{{route('admin.Settings','contact-settings')}}" class="navItem {{url()->current()==route('admin.Settings','contact-settings')?'active':''}}">

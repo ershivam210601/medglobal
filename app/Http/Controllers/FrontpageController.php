@@ -26,11 +26,11 @@ class FrontpageController extends Controller
 
     public function categoryProduct($slug=null)
     {
-        $category = Category::where('slug', $slug)->first();
-        $products = $category->products()->orderBy('created_at');
-      
+        $categories = Category::with('products')->where('slug','=', $slug)->get();
+       //dd($categories);
+       
         return view('product', [
-            'products' => $products,
+            'categories' => $categories,
         ]);
     }
 
